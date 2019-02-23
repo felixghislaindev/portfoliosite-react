@@ -1,29 +1,37 @@
 import React from 'react';
 
-// importing avatar image
-import aboutImg from '../images/avataaars.png'
+
 
 const aboutMe = () => {
     return (
         <div className='about'>
             <div className="about-info">
             <h2>About me</h2>
-            <p>My name is John Doe. I am a designer and
-             Front-end developer based in earth.
-              My designs, solutions and ideas for your brands.</p>
+            <p>My name is Felix ghislain. I am an aspiring
+             Front-end engineer.I am currently looking for my first full time position
+             as a Front-end Developer or JavaScript Developer. On my free time i try to acheive my dream by teaching myself languages and building projects
+             to provide me the experience necessary to work in the industry i am tying to get in to.
+             </p>
 
-              <h3>skills</h3>
+              <h3>Programming skills </h3>
               <ul>
-                  <li>Html</li>
-                  <li>CSS</li>
-                  <li>Js</li>
-                  <li>React js</li>
+                  <li>Languages: JavaScript, HTML, CSS,PHP</li>
+                   <li>Framework: Express</li>
+                  <li>Libraries: ReactJS, jQuery</li>
+                  <li>Server: NodeJs</li>
+              </ul>
+
+              <h3>Life Skills </h3> 
+              <ul>
+                  <li>Reaching things high up on shelves</li>
+                  <li>Consuming Ramen</li>
+                  <li>Avoiding low-hanging ceiling fans </li>
+                  <li>Enjoying watching NBA games </li>
+                  
               </ul>
             
             </div>
-            <div className="about-img">
-            <img src={aboutImg} alt="avatar" />
-            </div>
+            
         </div>
     );
 };

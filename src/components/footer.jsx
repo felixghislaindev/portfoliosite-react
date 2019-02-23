@@ -14,7 +14,7 @@ const footer = () => {
         <div>
             <footer>
             <h4>Thanks for visiting.</h4>
-            <p>Im based in london. Let's connect through on the platfrom bellow.</p>
+            <p>Im based in london.Just say hello and let's connect through on the platfrom bellow.</p>
             <ul>
                 <li><FontAwesomeIcon icon={['fab', 'github-alt']} /></li>
                 <li><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></li>
